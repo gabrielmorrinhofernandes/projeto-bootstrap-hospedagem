@@ -1,0 +1,19 @@
+:root{
+    --parede: #CFC9A8;
+    --papel: #E6E1C6;
+    --carpete: #5E6B52;
+    --sombra: #8F8A6C;
+    --texto: #2A2A22;
+
+    --bs-border-radius: 0;
+    --bs-border-radius-lg: 0;
+}
+body{
+    background: var(--parede);
+    color: var(--texto);
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+}
+h1, h2, h3, .navbar, .btn {
+  font-family: Verdana, Tahoma, sans-serif;
+}
